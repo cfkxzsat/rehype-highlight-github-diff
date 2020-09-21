@@ -1,0 +1,30 @@
+{
+  "name": "rehype-highlight-github-diff",
+  "version": "1.0.0",
+  "description": "rehype plugin to highlight diff blocks for github flavored markdown",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author":{"name": "cfkxzsat", "email": "cfkxzsat@gmail.com"},
+  "license": "MIT",
+  "keywords": [
+    "unified",
+    "rehype",
+    "rehype-plugin",
+    "plugin",
+    "html",
+    "hast",
+    "highlight",
+    "highlighting",
+    "github",
+    "gfm",
+    "GitHub Flavored Markdown",
+    "diff"
+  ],
+  "dependencies": {
+    "hast-util-class-list": "^1.0.0",
+    "unist-util-visit": "^2.0.3"
+  }
+}
