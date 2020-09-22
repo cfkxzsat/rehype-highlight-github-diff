@@ -28,7 +28,8 @@
   ],
   "dependencies": {
     "hast-util-class-list": "^1.0.0",
-    "unist-util-visit": "^2.0.3"
+    "unist-util-visit": "^2.0.3",
+    "unified": "^9.2.0"
   },
   "devDependencies": {
     "jest": "^26.4.2",
@@ -36,7 +37,9 @@
     "rehype-raw": "^4.0.2",
     "rehype-stringify": "^8.0.0",
     "remark-parse": "^8.0.3",
-    "remark-rehype": "^7.0.0",
-    "unified": "^9.2.0"
+    "remark-rehype": "^7.0.0"
+  },
+  "peerDependencies": {
+    "unified": ">=9.2.0"
   }
 }

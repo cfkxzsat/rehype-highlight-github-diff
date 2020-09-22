@@ -1,3 +1,4 @@
-import type { Node as UnistNode } from 'unist';
-declare function highlightDiffCodeBlockPlugin(options: { className: string }): (tree: UnistNode, file: any) => void;
+import { Plugin } from "unified";
+
+declare const highlightDiffCodeBlockPlugin: Plugin<[{ className: string }?]>;
 export = highlightDiffCodeBlockPlugin;
